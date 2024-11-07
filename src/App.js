@@ -94,7 +94,7 @@ export default App;
 async function getToken() {
   try {
     const response = await axios.get(
-      `https://stallion-sterling-bream.ngrok-free.app/token?identity=${encodeURIComponent(
+      `https://twilio-ivr-be-production.up.railway.app/token?identity=${encodeURIComponent(
         "sales"
       )}`
     );
