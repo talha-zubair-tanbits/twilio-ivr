@@ -94,7 +94,7 @@ export default App;
 async function getToken() {
   try {
     const response = await axios.get(
-      `http://spr.openport.io:5359/token?identity=${encodeURIComponent(
+      `https://stallion-sterling-bream.ngrok-free.app/token?identity=${encodeURIComponent(
         "sales"
       )}`
     );
